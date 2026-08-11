@@ -1,0 +1,23 @@
+{
+  "_사이즈": "8x10 (258x303cm) — 체육시설/펜션",
+  "layout": "banded", "topH": 300, "botH": 380,
+  "title": ["공·콘·장비가", "여기저기 굴러다닌다면"], "titleHl": 1,
+  "cta": { "subscribe": "구독", "like": "좋아요", "click": "아래 영상 클릭" },
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_09_8x10_체육시설.mp4",
+  "cuts": [
+    { "type": "image", "src": "cuts/p10_soccer.png", "sec": 4.2, "fit": "cover", "kb": "in",
+      "caption": { "l1": "훈련 장비가 늘 흩어져 있다면", "y": 0.05, "size": 52 }, "brand": false },
+    { "type": "image", "src": "real2/n_large2.jpg", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "장비를 한 번에 다 넣습니다", "hl": true, "y": 0.05, "size": 54 } },
+    { "type": "video", "src": "G:\\내 드라이브\\영상자료\\영상\\8x10 중국설치 (3)\\2025_0705_150827_073.MP4",
+      "start": 18, "sec": 4.0, "fit": "fit", "kb": "none", "vf": "crop=1080:1080:800:0",
+      "caption": { "l1": "자재 손질도 문제없이", "hl": true, "y": 0.05, "size": 56 } },
+    { "type": "image", "src": "real2/n_big.jpg", "sec": 4.2, "fit": "cover", "kb": "out",
+      "caption": { "l1": "훈련 준비 시간이 줄어듭니다", "hl": true, "y": 0.05, "size": 50 },
+      "specs": ["8x10 · 258×303cm"], "specsY": 0.80 },
+    { "type": "image", "src": "fresh3/f96.jpg", "sec": 4.2, "fit": "cover", "kb": "in",
+      "caption": { "l1": "설치기사 없이 혼자서", "hl": true, "y": 0.05, "size": 58 } },
+    { "type": "image", "src": "real/r_yard.jpg", "sec": 4.5, "fit": "cover", "kb": "out",
+      "caption": { "l1": "훈련장을 깔끔하게", "hl": true, "y": 0.05, "size": 58 } }
+  ]
+}

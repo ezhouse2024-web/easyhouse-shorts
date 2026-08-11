@@ -1,0 +1,54 @@
+{
+  "_시나리오": "캠핑용품이 방 하나를 거의 차지하고 있을 때 / 자전거가 현관이나 거실을 차지하고 있을 때",
+  "_소스": "훅=AI생성 · 시공=강릉 바디캠 · 완성=진도 실제현장 · 제품=아웃페인팅 사진",
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_03_캠핑용품.mp4",
+
+  "cuts": [
+    {
+      "_역할": "HOOK — 현관 점령",
+      "type": "image", "src": "cuts/p4_camping.png", "sec": 3.0, "fit": "cover", "kb": "in",
+      "caption": { "l1": "현관이 캠핑용품에", "l2": "점령당했나요?", "hl": false, "y": 0.055, "size": 82 },
+      "brand": false
+    },
+    {
+      "_역할": "AGITATE — 푸시인 이어지며 카피 전환",
+      "type": "image", "src": "cuts/p4_camping.png", "sec": 2.6, "fit": "cover", "kb": "in", "offY": 0.03,
+      "caption": { "l1": "자전거까지 들어오면", "l2": "발 디딜 곳이 없죠", "hl": true, "y": 0.055, "size": 78 },
+      "brand": false
+    },
+    {
+      "_역할": "SOLUTION — 제품",
+      "type": "image", "src": "exp/04_exp.png", "sec": 3.2, "fit": "fit", "kb": "in",
+      "caption": { "l1": "마당 한 켠에", "l2": "미닫이 창고 하나", "hl": true, "y": 0.10 },
+      "specs": ["가로 153cm", "세로 77cm", "높이 182cm"], "specsY": 0.70
+    },
+    {
+      "_역할": "PROOF — 강릉 바디캠 (GPS 오버레이 crop 제거)",
+      "type": "video",
+      "src": "G:\\내 드라이브\\영상자료\\영상\\강릉 8x10 (3)\\2025_0621_102938_031.MP4",
+      "start": 44, "sec": 3.0, "fit": "fit", "kb": "none",
+      "vf": "crop=1080:1080:800:0",
+      "caption": { "l1": "설치기사 없이", "l2": "혼자서 조립", "hl": true, "y": 0.10 },
+      "pills": ["전동공구만 있으면 OK"], "pillsY": 0.70
+    },
+    {
+      "_역할": "REAL — 진도 실제 완성 현장 (좌측 인물 crop 제외)",
+      "type": "video",
+      "src": "G:\\내 드라이브\\영상자료\\영상\\진도근처4x6\\20260407_152054.mp4",
+      "start": 4, "sec": 3.0, "fit": "cover", "kb": "none",
+      "vf": "crop=820:1458:250:180",
+      "caption": { "l1": "실제 설치 현장", "l2": "전남 진도", "hl": true, "y": 0.055 }
+    },
+    {
+      "_역할": "RESULT",
+      "type": "image", "src": "exp/12_exp.png", "sec": 2.8, "fit": "fit", "kb": "out",
+      "caption": { "l1": "텐트도 자전거도", "l2": "여기 다 들어갑니다", "hl": true, "y": 0.10 }
+    },
+    {
+      "_역할": "CTA",
+      "type": "image", "src": "exp/07_exp.png", "sec": 3.0, "fit": "fit", "kb": "in",
+      "caption": { "l1": "조립식 미니창고", "l2": "EASY HOUSE", "hl": true, "y": 0.10 },
+      "ribbon": "bit.ly/4uzUjez"
+    }
+  ]
+}

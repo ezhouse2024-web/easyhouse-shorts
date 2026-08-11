@@ -1,0 +1,51 @@
+{
+  "_시나리오": "펜션에서 청소용품·침구·소모품 보관 장소가 부족해 객실 하나를 창고로 쓰는 경우",
+  "_레이아웃": "상단 제목띠 / 중간 영상 / 하단 행동버튼(구독·좋아요·아래영상클릭)",
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_05b_펜션창고_밴드.mp4",
+
+  "layout": "banded",
+  "topH": 330,
+  "botH": 400,
+  "title": ["객실 하나를 창고로", "쓰고 계신가요?"],
+  "titleHl": 1,
+  "cta": { "subscribe": "구독", "like": "좋아요", "click": "아래 영상 클릭" },
+
+  "cuts": [
+    {
+      "_역할": "① 현상 — 공감",
+      "type": "image", "src": "cuts/p6_pension.png", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "펜션 사장님이라면", "y": 0.05, "size": 62 },
+      "brand": false
+    },
+    {
+      "_역할": "② 이득1 — 습기·노후 방지",
+      "type": "image", "src": "real/r_forest.jpg", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "침구가 습기를 안 먹습니다", "hl": true, "y": 0.05, "size": 58 }
+    },
+    {
+      "_역할": "③ 이득2 — 동선 단축",
+      "type": "image", "src": "real/r_brick.jpg", "sec": 4.5, "fit": "cover", "kb": "out",
+      "caption": { "l1": "청소 동선이 짧아집니다", "hl": true, "y": 0.05, "size": 60 }
+    },
+    {
+      "_역할": "④ 이득3 — 찾는 시간 제거 + 규격",
+      "type": "image", "src": "real/r_field.jpg", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "찾는 시간이 사라집니다", "hl": true, "y": 0.05, "size": 60 },
+      "specs": ["6x8 · 1.6평", "8x10 · 2.4평"], "specsY": 0.80
+    },
+    {
+      "_역할": "⑤ 이득4 — 셀프시공",
+      "type": "video",
+      "src": "G:\\내 드라이브\\영상자료\\영상\\강릉 8x10 (3)\\2025_0621_102938_031.MP4",
+      "start": 42, "sec": 4.5, "fit": "fit", "kb": "none",
+      "vf": "crop=1080:1080:800:0",
+      "caption": { "l1": "설치기사 없이 혼자서", "hl": true, "y": 0.05, "size": 64 },
+      "pills": ["전동공구만 있으면 OK"], "pillsY": 0.78
+    },
+    {
+      "_역할": "결론",
+      "type": "image", "src": "real/r_stone.jpg", "sec": 5.0, "fit": "cover", "kb": "out",
+      "caption": { "l1": "객실을 되찾으세요", "hl": true, "y": 0.05, "size": 66 }
+    }
+  ]
+}

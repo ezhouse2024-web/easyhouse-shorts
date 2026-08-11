@@ -1,0 +1,14 @@
+- [이지하우스 유튜브 채널](ezhouse-youtube-channel.md) — 사용자가 운영하는 조립식창고 채널, 영상 톤앤매너 기준
+- [이지하우스 콘텐츠 공식](ezhouse-content-formula.md) — 실제로 조회수 잘 나온 제목·훅 패턴, 카피 작성 시 적용
+- [사장님 직접 기획 노트](ezhouse-owner-notes.md) — 다이어리 필기 원칙, 편집 지적사항 포함. 외부 공식보다 우선
+- [훅·제목 구조 공식](hook-formulas.md) — 검증된 썸네일/제목 구조 6종 + 도입부·원고·아웃트로 규칙
+- [이지하우스 비주얼 시스템](ezhouse-visual-system.md) — 실제 썸네일·편집 스타일 규칙(빨간 프레임, BEFORE/AFTER, 아웃트로)
+- [영상 상시 작업 방식](ezhouse-video-workflow.md) — 미드폼 편집 + 숏츠 3플랫폼 창작, 크레딧 최소화 원칙
+- [영상 원본 소재 위치](ezhouse-footage-sources.md) — 구글드라이브 접근 제약, 로컬 8K 원본, 회전 플래그 주의
+- [실제 설치 사진 478장](ezhouse-install-photos.md) — G:\영상자료\설치사진, 회전 함정과 컨택트시트 도구
+- [드라이브 탐색 경계](drive-privacy-boundary.md) — 영상자료\영상 외 폴더는 열지 말 것, 민감 개인정보 있음
+- [창고 사진 임의 수정 금지](shed-photos-must-stay-unaltered.md) — 제품 컷은 AI 재생성 말고 원본 유지, 로컬 합성/아웃페인팅 사용
+- [제품 라인업 5종 치수](ezhouse-product-lineup.md) — 3x5~11x13 실측, 3x5만 미닫이·편경사인 점 주의
+- [사이즈별 사용환경 분석](ezhouse-size-usecase-map.md) — 문폭·깊이 기준으로 모델↔시나리오 매칭
+- [A안·B안 둘 다 만들기](deliver-both-ab-variants.md) — 이미지 결과물은 매번 원본 보존안과 AI 재생성안을 함께 전달
+- [윈도우 작업환경 메모](windows-toolchain-notes.md) — node/ffmpeg 없음, higgsfield CLI 설치법, PS 5.1 BOM·변수명 함정

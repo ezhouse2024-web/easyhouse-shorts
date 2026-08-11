@@ -1,0 +1,42 @@
+{
+  "_시나리오": "타이어를 계절별로 교체하며 별도로 보관해야 할 때 (제품군: 타이어보관창고)",
+  "_반영": "사장님 지적 반영 — 컷 7개→5개, 자막 2줄→1줄, 템포 늦춤. 나레이션은 AI 음성이 어색해 제거(무음).",
+  "_구성": "HOOK(타겟 공감 장면) → AGITATE(손실) → SOLUTION(수치 강화) → PROOF(셀프시공) → 결론(요약+다음영상 유도)",
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_04_타이어보관.mp4",
+
+  "cuts": [
+    {
+      "_역할": "HOOK — 베란다를 점령한 타이어 (타겟 공감 장면)",
+      "type": "image", "src": "cuts/p5_tire.png", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "타이어 네 짝, 어디 두세요?", "y": 0.075, "size": 74 },
+      "brand": false
+    },
+    {
+      "_역할": "AGITATE — 손실 제시 (푸시인 이어짐)",
+      "type": "image", "src": "cuts/p5_tire.png", "sec": 4.5, "fit": "cover", "kb": "in", "offY": 0.04,
+      "caption": { "l1": "고무 냄새가 뱁니다", "hl": true, "y": 0.075, "size": 80 },
+      "brand": false
+    },
+    {
+      "_역할": "SOLUTION — 수치 강화",
+      "type": "image", "src": "exp/04_exp.png", "sec": 6.0, "fit": "fit", "kb": "in",
+      "caption": { "l1": "타이어 8짝이 들어갑니다", "hl": true, "y": 0.155, "size": 72 },
+      "specs": ["가로 153cm", "세로 77cm", "높이 182cm"], "specsY": 0.72
+    },
+    {
+      "_역할": "PROOF — 강릉 바디캠 전동공구 POV (GPS 오버레이 crop 제거)",
+      "type": "video",
+      "src": "G:\\내 드라이브\\영상자료\\영상\\강릉 8x10 (3)\\2025_0621_102938_031.MP4",
+      "start": 42, "sec": 4.5, "fit": "fit", "kb": "none",
+      "vf": "crop=1080:1080:800:0",
+      "caption": { "l1": "설치기사 없이 혼자서", "hl": true, "y": 0.155, "size": 78 },
+      "pills": ["전동공구만 있으면 OK"], "pillsY": 0.70
+    },
+    {
+      "_역할": "결론 — 요약 + 다음 영상 유도 ('마지막으로' 금지)",
+      "type": "image", "src": "exp/12_exp.png", "sec": 5.0, "fit": "fit", "kb": "out",
+      "caption": { "l1": "EASY HOUSE", "hl": true, "y": 0.155, "size": 84 },
+      "ribbon": "다음 영상 ▶ 좁은 틈새 설치법"
+    }
+  ]
+}

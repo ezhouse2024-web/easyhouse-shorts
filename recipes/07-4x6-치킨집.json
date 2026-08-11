@@ -1,0 +1,23 @@
+{
+  "_사이즈": "4x6 (185x120cm) — 소형 식당 뒷마당",
+  "layout": "banded", "topH": 300, "botH": 380,
+  "title": ["가게 뒷마당이", "창고로 꽉 찼나요?"], "titleHl": 1,
+  "cta": { "subscribe": "구독", "like": "좋아요", "click": "아래 영상 클릭" },
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_07_4x6_치킨집.mp4",
+  "cuts": [
+    { "type": "image", "src": "cuts/p8_chicken.png", "sec": 4.2, "fit": "cover", "kb": "in",
+      "caption": { "l1": "박스에 가스통까지 뒤섞였다면", "y": 0.05, "size": 52 }, "brand": false },
+    { "type": "video", "src": "G:\\내 드라이브\\영상자료\\영상\\4x6 인천BBQ (3)\\2025_0611_132645_095.MP4",
+      "start": 12, "sec": 4.0, "fit": "fit", "kb": "none", "vf": "crop=1080:1080:800:0",
+      "caption": { "l1": "실제 식당 뒷마당 시공", "hl": true, "y": 0.05, "size": 56 } },
+    { "type": "image", "src": "fresh3/f38.jpg", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "동선이 짧아집니다", "hl": true, "y": 0.05, "size": 58 } },
+    { "type": "image", "src": "real/r_stone.jpg", "sec": 4.2, "fit": "cover", "kb": "out",
+      "caption": { "l1": "재료가 안 상합니다", "hl": true, "y": 0.05, "size": 58 },
+      "specs": ["4x6 · 185×120cm"], "specsY": 0.80 },
+    { "type": "image", "src": "fresh3/f99.jpg", "sec": 4.2, "fit": "cover", "kb": "in",
+      "caption": { "l1": "설치기사 없이 혼자서", "hl": true, "y": 0.05, "size": 58 } },
+    { "type": "image", "src": "real2/n_urban.jpg", "sec": 4.5, "fit": "cover", "kb": "out",
+      "caption": { "l1": "뒷마당을 되찾으세요", "hl": true, "y": 0.05, "size": 58 } }
+  ]
+}

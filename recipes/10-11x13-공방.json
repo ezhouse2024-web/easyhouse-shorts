@@ -1,0 +1,20 @@
+{
+  "_사이즈": "11x13 (330x380cm) — 작업실/공방, 서서 작업 가능한 유일한 모델",
+  "layout": "banded", "topH": 300, "botH": 380,
+  "title": ["공방 안이 자재로", "꽉 차 있나요?"], "titleHl": 1,
+  "cta": { "subscribe": "구독", "like": "좋아요", "click": "아래 영상 클릭" },
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_10_11x13_공방.mp4",
+  "cuts": [
+    { "type": "image", "src": "cuts/p11_workshop.png", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "목재에 걸려 넘어질 뻔했다면", "y": 0.05, "size": 50 }, "brand": false },
+    { "type": "image", "src": "fresh3/f47.jpg", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "완성품과 자재를 분리", "hl": true, "y": 0.05, "size": 56 } },
+    { "type": "image", "src": "real/r_forest.jpg", "sec": 4.5, "fit": "cover", "kb": "out",
+      "caption": { "l1": "가장 큰 사이즈, 넉넉하게", "hl": true, "y": 0.05, "size": 52 } },
+    { "type": "image", "src": "fresh3/f83.jpg", "sec": 4.5, "fit": "cover", "kb": "in",
+      "caption": { "l1": "유일하게 서서 작업 가능", "hl": true, "y": 0.05, "size": 52 },
+      "specs": ["11x13 · 330×380cm"], "specsY": 0.80 },
+    { "type": "image", "src": "fresh3/f114.jpg", "sec": 5.0, "fit": "cover", "kb": "out",
+      "caption": { "l1": "공방을 되찾으세요", "hl": true, "y": 0.05, "size": 58 } }
+  ]
+}

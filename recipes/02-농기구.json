@@ -1,0 +1,54 @@
+{
+  "_시나리오": "농기구를 매번 집 안에 넣었다 꺼내기 힘들 때 / 예초기·잔디깎이·삽·호미를 둘 곳이 없을 때",
+  "_소스": "훅=AI생성(1번) · 실제현장=구글드라이브 진도근처4x6 + 강릉 바디캠(3번)",
+  "out": "C:\\Users\\user\\새 폴더\\ads\\shorts_02_농기구.mp4",
+
+  "cuts": [
+    {
+      "_역할": "HOOK — 농기구 널브러진 시골 마당",
+      "type": "image", "src": "cuts/p3_farm.png", "sec": 2.8, "fit": "cover", "kb": "in",
+      "caption": { "l1": "농기구 둘 데가 없어서", "l2": "그냥 밖에 두셨죠?", "hl": false, "y": 0.055, "size": 84 },
+      "brand": false
+    },
+    {
+      "_역할": "AGITATE — 비 맞으면 녹슨다",
+      "type": "image", "src": "cuts/p2_rain.png", "sec": 2.8, "fit": "cover", "kb": "out",
+      "caption": { "l1": "비 한번 맞으면", "l2": "예초기부터 녹습니다", "hl": true, "y": 0.13 },
+      "brand": false
+    },
+    {
+      "_역할": "SOLUTION — 제품",
+      "type": "image", "src": "exp/04_exp.png", "sec": 3.2, "fit": "fit", "kb": "in",
+      "caption": { "l1": "마당 한 켠에", "l2": "미닫이 창고 하나", "hl": true, "y": 0.10 },
+      "specs": ["가로 153cm", "세로 77cm", "높이 182cm"], "specsY": 0.70
+    },
+    {
+      "_역할": "PROOF — 강릉 바디캠 전동공구 POV (GPS 오버레이 crop 제거)",
+      "type": "video",
+      "src": "G:\\내 드라이브\\영상자료\\영상\\강릉 8x10 (3)\\2025_0621_102938_031.MP4",
+      "start": 44, "sec": 3.0, "fit": "fit", "kb": "none",
+      "vf": "crop=1080:1080:800:0",
+      "caption": { "l1": "설치기사 없이", "l2": "혼자서 조립", "hl": true, "y": 0.10 },
+      "pills": ["전동공구만 있으면 OK"], "pillsY": 0.70
+    },
+    {
+      "_역할": "REAL — 진도 실제 설치 완료 현장 (좌측 인물은 crop으로 제외)",
+      "type": "video",
+      "src": "G:\\내 드라이브\\영상자료\\영상\\진도근처4x6\\20260407_152054.mp4",
+      "start": 4, "sec": 3.0, "fit": "cover", "kb": "none",
+      "vf": "crop=820:1458:250:180",
+      "caption": { "l1": "실제 설치 현장", "l2": "전남 진도", "hl": true, "y": 0.055 }
+    },
+    {
+      "_역할": "RESULT — 정리된 모습",
+      "type": "image", "src": "exp/12_exp.png", "sec": 2.8, "fit": "fit", "kb": "out",
+      "caption": { "l1": "농기구 싹 정리", "l2": "마당이 넓어집니다", "hl": true, "y": 0.10 }
+    },
+    {
+      "_역할": "CTA",
+      "type": "image", "src": "exp/07_exp.png", "sec": 3.0, "fit": "fit", "kb": "in",
+      "caption": { "l1": "조립식 미니창고", "l2": "EASY HOUSE", "hl": true, "y": 0.10 },
+      "ribbon": "bit.ly/4uzUjez"
+    }
+  ]
+}
